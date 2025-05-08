@@ -1,0 +1,68 @@
+UTS DPBO 2025 C1
+
+Kerjakan soal berikut dengan menggunakan bahasa pemrograman Java.
+Diberikan kelas-kelas berikut (Tema: Usaha Hotel dan Restoran)
+
+Hotel
+- kode
+- nama
+- perusahaan pemilik (perseroan terbatas yang memiliki)
+- tahun berdiri
+- jumlah karyawan
+- level (bintang 3, bintang 5, dll)
+- daftar room
+
+Restoran
+- kode
+- nama
+- perusahaan pemilik (perseroan terbatas yang memiliki)
+- tahun berdiri
+- jumlah karyawan
+- kategori (masakan Indonesia, masakan Belanda, masakan India, dll)
+- daftar menu
+
+Karyawan
+- noKTP
+- nama
+- alamat
+- gaji per bulan
+
+Chef
+- noKTP
+- nama
+- alamat
+- tempat bekerja (restoran)
+
+Waiter
+- noKTP
+- nama
+- alamat
+- hotel atau restoran tempat bekerja
+
+Menu
+- id
+- nama
+- bahan utama
+- asal menu
+
+Room
+- id
+- nama
+- kapasitas
+- fasilitas
+- kamar atau ruang
+
+
+Buatlah desain relasi antar kelas di atas menggunakan konsep inner class, composite (wajib), inheritance (wajib), interface/ kelas abstrak (wajib memakai salah satu) dan sertakan alasannya (bisa show off kemampuan inheritance, interface/kelas abstrak untuk nilai sempurna). Implementasikan semua kelas-kelas di atas sesuai desain yang dibuat.
+
+
+Buatlah kelas Main yang menampilkan semua data dengan hubungannya (silakan mendesain hubungan antar kelas untuk ditampilkan, desain hubungan dapat dimasukkan dalam pdf). Main dapat menerima masukan dari data utama (jelaskan pada desain, apa yang dapat dilakukan pencarian untuk menampilkan semua data yang terhubung). Gunakan array of object untuk menyimpan data dan minimal di-hardcode ada 2 data.
+
+
+Semua kelas memiliki metode get set dan komentar (termasuk janji).
+
+
+Semua peraturan pada mata kuliah pemrograman tetap berlaku kecuali yang ditimpa peraturan di soal ini (termasuk ada penulisan janji setia pada kejujuran).
+
+
+Desain (pdf) dan implementasi kode program (tanpa .class) yang semuanya sudah di-zip/rar dengan nama file zip/rar sama dengan subjek email dan dikirim ke email rosa.ariani@upi.edu dengan subjek Nama DPBO UTS Kelas contoh Rosa DPBO UTS C1 dengan batas waktu pukul 09.30 waktu upi.edu. Setiap keterlambatan 1 menit akan mendapatkan diskon nilai 2 point.
